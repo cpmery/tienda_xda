@@ -1,0 +1,17 @@
+// main.scss # Manifest File
+@import 'abstracts/_variables';
+@import 'abstracts/_functions';
+@import 'abstracts/_mixins';
+@import 'abstracts/_placeholders';
+@import 'vendors/_bootstrap';
+@import 'base/_base';
+@import 'base/_reset';
+@import 'base/_typography';
+@import 'layout/_navegation';
+@import 'layout/_header';
+@import 'layout/sect-desc';
+@import 'layout/sect-news';
+@import 'layout/_grid';
+@import 'components/_buttons';
+@import 'pages/_home';
+@import 'themes/_theme';

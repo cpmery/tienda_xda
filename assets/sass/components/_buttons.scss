@@ -1,0 +1,21 @@
+/*TAMAÑO NORMAL*/
+button{
+    padding:0.5rem 1rem;
+    background-color: white;
+    border: 1px solid black;
+    font-weight: bold;
+    &:hover{
+        border: 1px solid $light_gray;
+    }
+}
+
+/*TAMAÑO CELULAR*/
+@media only screen and (max-width: 600px) {
+    button{
+        padding:0.3rem 0.6rem;
+        font-size: x-small;
+        &:hover{
+            border: 1px solid $light_gray;
+        }
+    }
+}

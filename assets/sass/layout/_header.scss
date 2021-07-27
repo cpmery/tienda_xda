@@ -1,0 +1,35 @@
+/*TAMAÑO GRANDE*/
+@media only screen and (min-width: 920px){
+    header{        
+        background-image: url("/assets/img/imagen1.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: top center;   
+        background-size:cover; 
+
+        float:right;
+        height:calc(100vh - 50px);
+        width: 50vw;
+    }
+}
+/*TAMAÑO TABLET*/
+@media only screen and (max-width: 920px) and (min-width: 600px){
+    header{
+        background-image: url("/assets/img/imagen1.png");      
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 40vh;
+    
+    }
+}
+/*TAMAÑO CELULAR*/
+@media only screen and (max-width: 600px) {
+    header{
+        background-image: url("/assets/img/imagen1.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 30vh;
+
+    }
+}
